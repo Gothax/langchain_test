@@ -1,5 +1,6 @@
 from langchain.callbacks.base import BaseCallbackHandler
-from langchain.chat_models import ChatOpenAI
+# from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.schema import ChatMessage
 import streamlit as st
 from dotenv import load_dotenv
